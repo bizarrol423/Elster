@@ -30,7 +30,21 @@ div {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 48px;
+    font-size: calc(1em + 2vw);
+}
+
+.main_page > .main_name {
+    position: relative;
+    top: 20%;
+    font-size: calc(2em + 4vw);
+    margin: auto;
+}
+
+.main_page > .short_description{
+    position: relative;
+    top: 25%;
+    width: 60%;
+    margin: auto;
 }
 
 .download_page{
