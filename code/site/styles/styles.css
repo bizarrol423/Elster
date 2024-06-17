@@ -65,4 +65,25 @@ div {
 
 .arrow_bottom{
     position: absolute;
+    bottom: 1%;
+    rotate: 90deg;
+    width: 10%;
+}
+.arrow_up{
+    position: absolute;
+    top: 1%;
+    rotate: 270deg;
+    width: 10%;
+}
+
+video{
+    position: relative;
+    display: flex;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+}
+
+.description_video{
+    position: relative;
 }

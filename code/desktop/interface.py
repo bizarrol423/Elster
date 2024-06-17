@@ -23,7 +23,7 @@ class App(customtkinter.CTk):
         self.input_X.grid(row=2, column=0, padx=20,pady=0, sticky="ew")
 
         # поле координат Y
-        self.input_Y = customtkinter.CTkEntry(self, placeholder_text="X")
+        self.input_Y = customtkinter.CTkEntry(self, placeholder_text="Y")
         self.input_Y.grid(row=3, column=0, padx=20,pady=0, sticky="ew")
 
         # табличка метров

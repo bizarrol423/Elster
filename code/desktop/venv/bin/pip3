@@ -1,4 +1,4 @@
-#!/Users/michail/work/solo_project/Elster/code/desktop/venv/bin/python3.12
+#!/Users/michail/work/solo_project/Elster/code/desktop/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

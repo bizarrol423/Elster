@@ -46,7 +46,8 @@ def get_dict(SearchedOrganization: str, X:str = "", Y:str = "", distance:str = "
         phones = object["properties"]["CompanyMetaData"].get("Phones")
         if phones != None:
             for phone in phones:
-                number_phones += f"|{phone["formatted"]}| "
+                print(phone)
+                #number_phones += f"|{phone["formatted"]}| "
         phone_number.append(number_phones)
         work_hours = object["properties"]["CompanyMetaData"].get("Hours")
         if work_hours != None:
